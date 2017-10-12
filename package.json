@@ -1,0 +1,19 @@
+{
+  "name": "auth0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamkwok/auth0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamkwok/auth0/issues"
+  },
+  "homepage": "https://github.com/jamkwok/auth0#readme"
+}
