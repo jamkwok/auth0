@@ -3,7 +3,7 @@ var app = express();
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 80;
 
 var jwtCheck = jwt({
     secret: jwks.expressJwtSecret({
@@ -12,7 +12,7 @@ var jwtCheck = jwt({
         jwksRequestsPerMinute: 5,
         jwksUri: "https://devopsglue.au.auth0.com/.well-known/jwks.json"
     }),
-    audience: 'auth0.devopsglue.com',
+    audience: 'http://auth0.siteminderlabs.com',
     issuer: "https://devopsglue.au.auth0.com/",
     algorithms: ['RS256']
 });
